@@ -7,13 +7,25 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-
     <section>
-      <h1>Search form</h1>
-     
+      <div class="wrapper">
+        <form class="search-form">
+          <input
+            class="search-input"
+            type="text"
+            name="search-picture"
+            id="search"
+            placeholder="Search images..."
+          />
+          <button class="submit-btn" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="gallery">
+        <!-- <div class="container"> -->
+          <div class="loader is-hidden"></div>
+        <!-- </div> -->
+      </div>
     </section>
-
-
 
     <script type="module" src="./main.js"></script>
   </body>
